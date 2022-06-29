@@ -28,4 +28,7 @@ products.push({
   stock: 90
 });
 
+const addProdcut = (data: Product) => {
+  products.push(data);
+}
 
